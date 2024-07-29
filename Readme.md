@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Максим Куприн](https://up.htmlacademy.ru/htmlcss-individual/2/user/2544571).
-* Наставник: `Андрей Грачёв`.
+* Наставник: [Андрей Грачёв](https://htmlacademy.ru/profile/angra).
 
 ---
 
