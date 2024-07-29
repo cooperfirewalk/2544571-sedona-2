@@ -2,6 +2,7 @@
 
 * Студент: [Максим Куприн](https://up.htmlacademy.ru/htmlcss-individual/2/user/2544571).
 * Наставник: [Андрей Грачёв](https://htmlacademy.ru/profile/angra).
+* Сайт: [Проект Седона](https://cooperfirewalk.github.io/2544571-sedona-2/)
 
 ---
 
