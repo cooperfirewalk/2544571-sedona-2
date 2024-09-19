@@ -7,16 +7,30 @@
   <body>
     <header data-test="header" class="page-header">
       <nav class="navigation">
-        <a class="city-logo" href="#"><img src="images/logo.svg" width="138" height="64" alt="логотип City of Sedona"></a>
+        <a class="city-logo" href="index.html">
+          <img src="images/logo.svg" width="138" height="64" alt="логотип City of Sedona">
+        </a>
         <ul class="navigation-tabs">
-          <li class="navigation-item"><a class="navigation-link active" href="#">Главная</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#">О Седоне</a></li>
-          <li class="navigation-item"><a class="navigation-link" href="catalog.html">Гостиницы</a></li>
+          <li class="navigation-item">
+            <a class="navigation-link active" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
         </ul>
         <ul class="navigation-list navigation-buttons">
-          <li class="navigation-item"><a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a></li>
-          <li class="navigation-item"><a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span></a><span class="fav_amount">12</span></li>
-          <li class="navigation-item"><a class="navigation-link button" href="#">Хочу сюда!</a></li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span><span class="fav_amount">12</span></a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link button" href="#">Хочу сюда!</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -24,7 +38,7 @@
       <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
       <section data-test="hero" class="hero">
         <h2 class="visually-hidden">Приветственная часть</h2>
-        <img class="welcome text" src="images/welcome.svg" width="458" height="352" alt="Приветственный текст: Welcome to the gorgeous SEDONA. Because the Grand Canyon sucks">
+        <img class="welcome-text" src="images/welcome.svg" width="458" height="352" alt="Приветственный текст: Welcome to the gorgeous SEDONA. Because the Grand Canyon sucks">
       </section>
       <section data-test="advantages" class="advantages">
         <h2 class="visually-hidden">Преимущества Седоны</h2>
@@ -83,20 +97,29 @@
         <h2>Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="field" placeholder="Ваш e-mail" name="subscription-email">
+          <label for="mail-field" class="visually-hidden">Введите свой email</label>
+          <input id="mail-field" class="field" placeholder="Ваш e-mail" name="subscription-email">
           <button class="button subscription-button" type="submit">Подписаться</button>
         </form>
       </section>
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
-          <li><a class="button" href="https://vk.com/htmlacademy"><span class="visually-hidden">ВК</span></a></li>
-          <li><a class="button" href="https://t.me/htmlacademy"><span class="visually-hidden">Телеграм</span></a></li>
-          <li><a class="button" href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">Youtube</span></a></li>
+          <li>
+            <a class="button-social" href="https://vk.com/htmlacademy"><span class="visually-hidden">ВК</span></a>
+          </li>
+          <li>
+            <a class="button-social" href="https://t.me/htmlacademy"><span class="visually-hidden">Телеграм</span></a>
+          </li>
+          <li>
+            <a class="button-social" href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">Youtube</span></a>
+          </li>
         </ul>
       </section>
       <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a class="logo-html-academy" href="https://htmlacademy.ru/"><img src='images/html_academy_logo.svg' width="115" height="33" alt='Логотип HTML Academy'></a>
+      <a class="logo-html-academy" href="https://htmlacademy.ru/">
+        <img src='images/html_academy_logo.svg' width="115" height="33" alt='Логотип HTML Academy'>
+      </a>
     </footer>
   </body>
 </html>
