@@ -5,7 +5,7 @@
     src: url("../fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
   }
-  
+
   @font-face {
     font-family: "PT Sans";
     font-style: normal;
@@ -21,7 +21,7 @@
     font-size: 18px;
     line-height: 21px;
     color: #000;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     margin: 0;
     display: flex;
     min-height: 100%;
@@ -30,26 +30,22 @@
   }
 
   .page-header {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 1200px;
     margin: 0 auto;
   }
 
   .main-index {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 1200px;
     margin: 0 auto;
     flex-grow: 1;
   }
 
   .page-footer {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 1200px;
     margin: 0 auto;
-  }
-
-  .visually-hidden {
-    display: none;
   }
 
   .pagination-link {
@@ -104,7 +100,7 @@
   }
 
   .hero {
-    background-image: url(../images/index-header-bg.jpg);
+    background-image: url("../images/index-header-bg.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
@@ -128,9 +124,9 @@
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    color: #333
+    color: #333333
   }
-  
+
   .advantages-buttons li {
     width: 230px;
   }
@@ -151,16 +147,16 @@
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    color: #333;
+    color: #333333;
   }
 
   .advantages-item.blue-block p{
-    color: #fff;
+    color: #ffffff;
     background-color: #82b3d3;
   }
 
   .advantages-item.blue-block {
-    color: #fff;
+    color: #ffffff;
     background-color: #82b3d3;
   }
 
@@ -180,7 +176,7 @@
   }
 
   .advantages-buttons p {
-    color: #333;
+    color: #333333;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -192,17 +188,17 @@
   }
 
   .subscription-main {
-    background-image: url(../images/subscribe-bg.jpg);
+    background-image: url("../images/subscribe-bg.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
   }
 
   .subscription-main .center-text {
-    color: #fff
+    color: #ffffff
   }
 
   .subscription-main .center-text p {
-    color: #fff
+    color: #ffffff
   }
 
   .blue-button {
@@ -219,22 +215,22 @@
   }
 
   .main-inner {
-    background-image: url(../images/filter-bg.jpg);
+    background-image: url("../images/filter-bg.jpg");
+
     background-size: 100% auto;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     width: 1200px;
     margin: 0 auto;
     flex-grow: 1;
   }
 
   .inner-header {
-    color: #fff;
-    background-color: grey;
+    color: #ffffff;
   }
 
   .filter {
-    color: #fff;
-    background-color: grey;
+    color: #ffffff;
+    background-color: #808080;
   }
 
   .inner-title {
