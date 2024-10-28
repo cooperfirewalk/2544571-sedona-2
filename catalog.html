@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <div class="body-container">
   <header data-test="header" class="page-header">
     <nav class="navigation">
       <a class="city-logo" href="index.html">
@@ -21,7 +22,7 @@
           <a class="navigation-link" href="#">О Седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link navigation-link-active" href="catalog.html">Гостиницы</a>
+          <a class="navigation-link navigation-link-active">Гостиницы</a>
         </li>
       </ul>
       <ul class="navigation-list">
@@ -113,17 +114,17 @@
       </select>
       <ul class="menu-view-list">
         <li class="menu-view-item">
-          <a href="#" class="button button-light">
+          <a href="catalog.html?view=tile" class="button button-light">
             <span class="visually-hidden">Отображение таблицей</span>
           </a>
         </li>
         <li class="menu-view-item">
-          <a class="button" href="#">
+          <a class="button" href="catalog.html?view=card">
             <span class="visually-hidden">Отображение слайдами</span>
           </a>
         </li>
         <li class="menu-view-item">
-          <a class="button" href="#">
+          <a class="button" href="catalog.html?view=list">
             <span class="visually-hidden">Отображение списком</span>
           </a>
         </li>
@@ -238,6 +239,7 @@
       <img src='images/html_academy_logo.svg' width="115" height="33" alt='Логотип HTML Academy'>
     </a>
   </footer>
+  </div>
 </body>
 
 </html>

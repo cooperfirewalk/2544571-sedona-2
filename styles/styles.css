@@ -16,7 +16,7 @@
 }
 
 * {
-  border: 1px solid red;
+  outline: 1px solid red;
 }
 
 /* html,body and visually hidden */
@@ -31,7 +31,9 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #ffffff;}
+
+.body-container {
   margin: 0 auto;
   display: flex;
   min-height: 100%;
@@ -62,6 +64,7 @@ body {
 .city-logo {
   display: block;
   width: 138px;
+  height: 64px;
 }
 
 .navigation {
@@ -73,10 +76,11 @@ body {
 .navigation-tabs {
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 1;
+  width: 450px;
   padding: 0;
   margin: 0;
   list-style-type: none;
+  margin-right: auto;
 }
 
 .navigation-link {
@@ -129,6 +133,7 @@ body {
 
 .hero {
   background-image: url("../images/index-header-bg.jpg");
+  background-color: #a38079;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -202,6 +207,7 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: stretch;
 }
 
@@ -276,6 +282,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px 70px 30px;
 }
 
 .footer-phone {
